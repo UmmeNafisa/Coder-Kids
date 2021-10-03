@@ -1,0 +1,15 @@
+.icons p{
+padding: 0 10px;
+font-size: 28px;
+}
+.icons p:hover{
+    color: rgb(92, 105, 117);
+}
+
+.address h5{
+color:rgba(62, 70, 78, 0.842);
+}
+.info h5:hover{
+    color: gainsboro;
+    cursor: pointer;
+}
