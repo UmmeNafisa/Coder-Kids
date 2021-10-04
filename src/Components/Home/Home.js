@@ -16,7 +16,7 @@ const Home = () => {
     }, [])
     return (
         <div>
-            <div className="text-center banner" style={{ backgroundImage: `url(${background})` }}>
+            <div className="text-center banner img-fluid" style={{ backgroundImage: `url(${background})` }}>
                 <div>
                     <h1 className="text-white text-center banner-tag">AFTER-SCHOOL PROGRAMS YOUR CHILD WILL LOVE!</h1>
                     <Link to="/registration">

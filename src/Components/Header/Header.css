@@ -1,8 +1,9 @@
 .nav-link{
     text-decoration: none;
-    color: #ffffff;
-    font-weight: 900;
+    color: black;
+    font-weight: 700;
     font-size: 18px;
+    margin-right: 10px;
     
 }
 .nav-link:hover{
