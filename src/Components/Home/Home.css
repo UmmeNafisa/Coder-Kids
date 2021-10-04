@@ -1,4 +1,4 @@
-
+/* banner part css */
 .banner{
   background-position: center;
   background-repeat: no-repeat;
@@ -27,6 +27,11 @@
   background-color:#24d3fa ;
 }
 
+/* why part css */
+.why-bg{
+background-color: rgba(165, 248, 207, 0.281);
+}
+/* courses part */
 .course-bg{
   background-color: rgb(210, 238, 243);
 }
