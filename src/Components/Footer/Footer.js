@@ -7,7 +7,7 @@ import { Container } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <div className="bg-info m-0">
+        <div className="bg-info m-0 mb-0">
             <div className=" d-flex justify-content-center p-4 icons">
                 <p><FontAwesomeIcon icon={faFacebook} /></p>
                 <p><FontAwesomeIcon icon={faYoutube} /></p>
