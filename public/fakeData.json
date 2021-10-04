@@ -11,11 +11,47 @@
     {
         "key": 2,
         "programName": "Osmo Review",
-        "instructorName": "Sarah Batmale",
+        "instructorName": "Sierra Refit",
         "courseFees": 5000,
         "rating": 4.5,
         "availableSeat": 20,
         "imgUrl": "https://images.squarespace-cdn.com/content/v1/570ebc54e32140a560e3d6d4/1631735908413-B2RF7L0ICY8H1T0TKOGR/osmo+review.png?format=300w"
+    },
+    {
+        "key": 12,
+        "programName": "Music and Coding",
+        "instructorName": "Sarah Batmale",
+        "courseFees": 5400,
+        "rating": 4.7,
+        "availableSeat": 40,
+        "imgUrl": "https://images.squarespace-cdn.com/content/v1/570ebc54e32140a560e3d6d4/1630529179619-WIRZ0F82GZB774J16U3O/music+and+coding.png?format=300w"
+    },
+    {
+        "key": 5,
+        "programName": "Canva for Kids",
+        "instructorName": "Dean Ramirez",
+        "courseFees": 4000,
+        "rating": 5.0,
+        "availableSeat": 15,
+        "imgUrl": "https://images.squarespace-cdn.com/content/v1/570ebc54e32140a560e3d6d4/1631130869505-OSEJ413NLZVKTZHFEIJ3/canva+for+kids.png?format=300w"
+    },
+    {
+        "key": 6,
+        "programName": "Python Projects for Kids",
+        "instructorName": "Dean Ramirez",
+        "courseFees": 4200,
+        "rating": 4.9,
+        "availableSeat": 25,
+        "imgUrl": "https://images.squarespace-cdn.com/content/v1/570ebc54e32140a560e3d6d4/1621882813278-XC61LP1NZU4ZBRTL0JF8/python+projects+for+kids.png?format=300w"
+    },
+    {
+        "key": 10,
+        "programName": "HTML for Beginners",
+        "instructorName": "Alyssa Hall",
+        "courseFees": 2000,
+        "rating": 4.6,
+        "availableSeat": 35,
+        "imgUrl": "https://images.squarespace-cdn.com/content/v1/570ebc54e32140a560e3d6d4/1622058713603-DLPL83AH02WT01YORR7V/html+for+beginners.png?format=300w"
     },
     {
         "key": 3,
@@ -36,24 +72,6 @@
         "imgUrl": "https://images.squarespace-cdn.com/content/v1/570ebc54e32140a560e3d6d4/1625773839390-OKBJKRA150WWX90DE9MO/sphero+blogpost.png?format=300w"
     },
     {
-        "key": 5,
-        "programName": "Canva for Kids",
-        "instructorName": "Sarah Batmale",
-        "courseFees": 4000,
-        "rating": 5.0,
-        "availableSeat": 15,
-        "imgUrl": "https://images.squarespace-cdn.com/content/v1/570ebc54e32140a560e3d6d4/1631130869505-OSEJ413NLZVKTZHFEIJ3/canva+for+kids.png?format=300w"
-    },
-    {
-        "key": 6,
-        "programName": "Python Projects for Kids",
-        "instructorName": "Dean Ramirez",
-        "courseFees": 4200,
-        "rating": 4.9,
-        "availableSeat": 25,
-        "imgUrl": "https://images.squarespace-cdn.com/content/v1/570ebc54e32140a560e3d6d4/1621882813278-XC61LP1NZU4ZBRTL0JF8/python+projects+for+kids.png?format=300w"
-    },
-    {
         "key": 7,
         "programName": "Book review- Hello Ruby: Adventures in Coding",
         "instructorName": "Stephanie Chambers",
@@ -64,7 +82,7 @@
     },
     {
         "key": 8,
-        "programName": "Zoom Vs Discord",
+        "programName": "Difference between Zoom Vs Discord",
         "instructorName": "Sarah Batmale",
         "courseFees": 400,
         "rating": 4.1,
@@ -81,15 +99,6 @@
         "imgUrl": "https://images.squarespace-cdn.com/content/v1/570ebc54e32140a560e3d6d4/1622492097683-PCAOSSA412I8TPXA94KY/What%27s+Inside+of+a+Computer.png?format=300w"
     },
     {
-        "key": 10,
-        "programName": "HTML for Beginners",
-        "instructorName": "Alyssa Hall",
-        "courseFees": 2000,
-        "rating": 4.6,
-        "availableSeat": 35,
-        "imgUrl": "https://images.squarespace-cdn.com/content/v1/570ebc54e32140a560e3d6d4/1622058713603-DLPL83AH02WT01YORR7V/html+for+beginners.png?format=300w"
-    },
-    {
         "key": 11,
         "programName": "Learning the Basics of Minecraft",
         "instructorName": "Dean Ramirez",
@@ -97,14 +106,5 @@
         "rating": 4.0,
         "availableSeat": 25,
         "imgUrl": "https://images.squarespace-cdn.com/content/v1/570ebc54e32140a560e3d6d4/1622666678426-MIP24UGS7SGQ9QHRKSRR/Learning+the+basics+of+MInecraft.png?format=300w"
-    },
-    {
-        "key": 12,
-        "programName": "Music and Coding",
-        "instructorName": "Sarah Batmale",
-        "courseFees": 5400,
-        "rating": 4.7,
-        "availableSeat": 40,
-        "imgUrl": "https://images.squarespace-cdn.com/content/v1/570ebc54e32140a560e3d6d4/1630529179619-WIRZ0F82GZB774J16U3O/music+and+coding.png?format=300w"
     }
 ]

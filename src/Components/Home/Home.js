@@ -18,9 +18,9 @@ const Home = () => {
         <div>
             <div className="text-center banner img-fluid" style={{ backgroundImage: `url(${background})` }}>
                 <div>
-                    <h1 className="text-white text-center banner-tag">AFTER-SCHOOL PROGRAMS YOUR CHILD WILL LOVE!</h1>
+                    <h1 className="text-white text-center banner-tag w-75 mx-auto">AFTER-SCHOOL PROGRAMS YOUR CHILD WILL LOVE!</h1>
                     <Link to="/registration">
-                        <button className="sign-up-btn mb-5"> SIGN UP TODAY </button>
+                        <button className="sign-up-btn my-3"> SIGN UP TODAY </button>
                     </Link>
                 </div>
             </div>

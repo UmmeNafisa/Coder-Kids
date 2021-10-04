@@ -35,7 +35,7 @@ const Footer = () => {
                     <h5> Private Lessons</h5>
                 </div>
             </Container>
-            <p className="text-center pt-3">© 2020 Coder Kids, LLC.</p>
+            <p className="text-center">© 2020 Coder Kids, LLC.</p>
         </div>
     );
 };

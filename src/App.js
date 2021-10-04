@@ -8,6 +8,7 @@ import Courses from './Components/Courses/Courses';
 import Footer from './Components/Footer/Footer';
 import Registration from './Components/Registration/Registration';
 import Error from './Components/Error/Error';
+import LogIn from './Components/logIn/LogIn';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/registration">
             <Registration />
+          </Route>
+          <Route path="/logIn">
+            <LogIn />
           </Route>
           <Route path="*">
             <Error />
