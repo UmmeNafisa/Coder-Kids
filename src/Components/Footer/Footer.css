@@ -4,6 +4,7 @@ font-size: 28px;
 }
 .icons p:hover{
     color: rgb(92, 105, 117);
+    transform: scale(1.5);
 }
 
 .address h5{

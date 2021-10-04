@@ -1,7 +1,19 @@
 .card{
     background-color: rgb(210, 238, 243);
+   
 }
-/* btn-color */
+.card:hover{
+    transform: scale(1.02);
+}
+
+.img-size{
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    max-height: 450px;
+}
 .btn-color{
     background-color: #02b1d8;
+    border-radius: 10px;
+    border: 0;
 }

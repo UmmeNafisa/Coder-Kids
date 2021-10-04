@@ -13,7 +13,7 @@ const Courses = () => {
     return (
         <div className="course-bg">
             <Container className="p-5">
-                <Row xs={1} md={2} lg={3} className="g-3 gap-1">
+                <Row xs={1} md={2} lg={3} className="g-3">
                     {
                         courses.map(course => <CourseDetails key={course.key} course={course}></CourseDetails>)
                     }

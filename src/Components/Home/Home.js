@@ -33,7 +33,7 @@ const Home = () => {
                     </Row>
                     <div className="text-center">
                         <Link to="/courses" >
-                            <Button className="text-white fw-normal px-5 fs-5 mt-3" variant="info" size="lg">
+                            <Button className="text-white btn-color fw-bold px-5 fs-5 mt-3" size="lg">
                                 See more Courses  <FontAwesomeIcon icon={faArrowRight} />
                             </Button>
                         </Link>
