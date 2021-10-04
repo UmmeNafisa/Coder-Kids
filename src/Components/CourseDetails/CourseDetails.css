@@ -1,3 +1,7 @@
 .card{
-    background-color: snow;
+    background-color: rgb(210, 238, 243);
+}
+/* btn-color */
+.btn-color{
+    background-color: #02b1d8;
 }

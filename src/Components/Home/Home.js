@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import CourseDetails from '../CourseDetails/CourseDetails';
 import background from '../Images/shutterstock_741220234small.jpg'
 import './Home.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
     const [courses, setCourses] = useState([]);
@@ -24,11 +26,18 @@ const Home = () => {
             </div>
             <div className="course-bg">
                 <Container className="p-5">
-                    <Row>
+                    <Row xs={1} md={2} lg={4} className="g-4">
                         {
                             courses.slice(0, 4).map(course => <CourseDetails key={course.key} course={course}></CourseDetails>)
                         }
                     </Row>
+                    <div className="text-center">
+                        <Link to="/courses" >
+                            <Button className="text-white fw-normal px-5 fs-5 mt-3" variant="info" size="lg">
+                                See more Courses  <FontAwesomeIcon icon={faArrowRight} />
+                            </Button>
+                        </Link>
+                    </div>
                 </Container>
             </div>
         </div>
