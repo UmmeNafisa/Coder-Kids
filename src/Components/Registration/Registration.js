@@ -15,7 +15,7 @@ const Registration = () => {
     };
     return (
         <div className="w-75 mx-auto my-5 bg-light py-3 px-5" >
-            <h1 className="text-primary text-center mx-auto bg-info text-white w-25 rounded-3 mb-3 p-2"> Sign Up </h1>
+            <h1 className="text-primary text-center mx-auto bg-info text-white w-50 rounded-3 mb-3 p-2"> Sign Up </h1>
             <Form noValidate validated={validated} onSubmit={handleSubmit}>
                 <Row className="mb-3">
                     <Form.Group as={Col} md="4" controlId="validationCustom01">
@@ -77,8 +77,8 @@ const Registration = () => {
                 </Row>
                 <Row className="mb-3">
                     <Form.Group as={Col} md="4" controlId="validationCustom03">
-                        <Form.Label>Class</Form.Label>
-                        <Form.Control type="text" placeholder="which class do you reading?" required />
+                        <Form.Label>Class/Grade</Form.Label>
+                        <Form.Control type="text" placeholder="which class/grade do you reading?" required />
                         <Form.Control.Feedback type="invalid">
                             Please provide a valid Class.
                         </Form.Control.Feedback>

@@ -18,8 +18,8 @@ const Home = () => {
         <div>
             {/* banner part */}
             <div className="text-center banner img-fluid" style={{ backgroundImage: `url(${background})` }}>
-                <div>
-                    <h1 className="text-white text-center banner-tag w-75 mx-auto">AFTER-SCHOOL PROGRAMS YOUR CHILD WILL LOVE!</h1>
+                <div className="text-center">
+                    <h1 className="text-white banner-tag w-75 mx-auto">AFTER-SCHOOL PROGRAMS YOUR CHILD WILL LOVE!</h1>
                     <Link to="/registration">
                         <button className="sign-up-btn my-3"> SIGN UP TODAY </button>
                     </Link>
@@ -36,7 +36,7 @@ const Home = () => {
             {/* courses part  */}
             <div className="course-bg">
                 <Container className="pt-3 pb-5">
-                    <h1 className="bg-info text-white text-center mx-auto w-25 p-2 fw-bold rounded-pill mb-3"> Courses </h1>
+                    <h1 className="bg-info text-white text-center mx-auto w-50 p-2 fw-bold rounded-pill mb-3"> Courses </h1>
                     <Row xs={1} md={2} lg={4} className="g-4">
                         {
                             courses.slice(0, 4).map(course => <CourseDetails key={course.key} course={course}></CourseDetails>)
