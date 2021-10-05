@@ -21,3 +21,10 @@
     top: 30px;
     color: red;
 }
+
+/* media query */
+@media (max-width: 767px) { 
+    .selectNumber{
+        top: 130px;
+    }
+   }
