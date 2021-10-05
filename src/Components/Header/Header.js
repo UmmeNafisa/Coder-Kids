@@ -19,7 +19,7 @@ const Header = () => {
                         src={logo}
                         width="280"
                         height="80"
-                        classNameName="d-inline-block align-top"
+                        className="d-inline-block align-top"
                         alt="Coder kids logo" />
                 </NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,10 @@ const Header = () => {
                         <NavLink className="nav-link" activeStyle={navStyle} to="/courses">Courses</NavLink>
                         <NavLink className="nav-link" activeStyle={navStyle} to="/registration">Sign Up</NavLink>
                         <NavLink className="nav-link" activeStyle={navStyle} to="/logIn">Log-In </NavLink>
-                        <NavLink activeStyle={navStyle} to="/select"> <button className="border-0 bg-light text-info px-2 fs-4">  <FontAwesomeIcon icon={faClipboardCheck} />0</button> </NavLink>
+                        <NavLink activeStyle={navStyle} to="/busket"> 
+                        <button className="border-0 bg-light text-info px-2 fs-4">  <FontAwesomeIcon icon={faClipboardCheck} /> <span className="translate-middle badge selectNumber"> 0 </span>
+                        </button>
+                         </NavLink>
                     </Nav>
                 </div>
             </div>

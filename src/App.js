@@ -9,11 +9,11 @@ import Footer from './Components/Footer/Footer';
 import Registration from './Components/Registration/Registration';
 import Error from './Components/Error/Error';
 import LogIn from './Components/logIn/LogIn';
+import Busket from './Components/Busket/Busket'
 
 function App() {
   return (
-    <div className="">
-
+    <div>
       <Router>
         <Header></Header>
         <Switch>
@@ -34,6 +34,9 @@ function App() {
           </Route>
           <Route path="/logIn">
             <LogIn />
+          </Route>
+          <Route path="/busket">
+            <Busket/>
           </Route>
           <Route path="*">
             <Error />

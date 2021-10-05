@@ -11,3 +11,13 @@
     color: tomato;
     border-radius: 10px;
 }
+
+.selectNumber{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    color: red;
+}
